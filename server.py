@@ -12,15 +12,10 @@ def continuethread(num, client, address):
 
     try:
         print("Connection from: ", address)
-        data = client.recv(4)
-        data = struct.unpack("!I", data)[0]
-        code, message = recv_exactly(client, data)
-        times = int(message.decode('utf-8'))
-        client.sendall(b"received")
-        while(times):
-            print("hi")
+        while True:
             data = client.recv(4)
-
+            if not data:
+                break
             data = struct.unpack("!I", data)[0]
             code, message = recv_exactly(client, data)
             message = message.decode("utf-8")
@@ -33,7 +28,6 @@ def continuethread(num, client, address):
                     client.sendall(b"Thanks, received")
                 else:
                     client.sendall(b"error") 
-            times -= 1
         
     except ConnectionResetError:
         print("Connection reset error")

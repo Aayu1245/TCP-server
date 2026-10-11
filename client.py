@@ -15,16 +15,15 @@ def send_message(client, message):
     except Exception as e:
         return -1, str(e)
 
-times = 3
+
 
 client.connect(("127.0.0.1", 5000))
-send_message(client, str(times))
 
-while(times):
-    mess = f"Message No. {times}"
-    code, resp = send_message(client, mess)
-    print(code, ", ", resp)
-    times -= 1
+
+mess = "Message No. 0"
+code, resp = send_message(client, mess)
+print(code, ", ", resp)
+
 
 
 print("Messages sent, closing now")

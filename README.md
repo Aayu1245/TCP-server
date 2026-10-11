@@ -18,4 +18,10 @@
 ### Update 1
 -Implemented a message sharing and accepting protocol for both client and server where the client first sends a header containing the exact message length of the payload
 
+## Day 3
+
+### Update 1
+-Implemented 3 different client types, c1 sends whole message at once, c2 sends message 1 byte at a time, c3 sends 3 messages at once
+-let server handle any type of message
+
   
