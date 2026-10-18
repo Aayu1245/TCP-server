@@ -16,35 +16,35 @@
 ## Day 2
 
 ### Update 1
--Implemented a message sharing and accepting protocol for both client and server where the client first sends a header containing the exact message length of the payload
+- Implemented a message sharing and accepting protocol for both client and server where the client first sends a header containing the exact message length of the payload
 
 ## Day 3
 
 ### Update 1
--Implemented 3 different client types, c1 sends whole message at once, c2 sends message 1 byte at a time, c3 sends 3 messages at once
--let server handle any type of message
+- Implemented 3 different client types, c1 sends whole message at once, c2 sends message 1 byte at a time, c3 sends 3 messages at once
+- let server handle any type of message
 
 ### Update 2
 
--Implemented a client which sends JSON requests in form of bytes and gets server response accordingly
--Server now handles decoding the json request and encoding the json response
--The requests handled are PING, ECHO, QUIT, invalid requests and non json requests
+- Implemented a client which sends JSON requests in form of bytes and gets server response accordingly
+- Server now handles decoding the json request and encoding the json response
+- The requests handled are PING, ECHO, QUIT, invalid requests and non json requests
 
 ## Day 4
 
 ### Update 1
 
--Added timeout for socket connections to server to disconnect idle clients
--Added message size limit to be 1MB
--Added a clean shutdown protocol for keyboard interrupt via ctrl+c for server
--Removed print statements and added logging to server
+- Added timeout for socket connections to server to disconnect idle clients
+- Added message size limit to be 1MB
+- Added a clean shutdown protocol for keyboard interrupt via ctrl+c for server
+- Removed print statements and added logging to server
 
 ### Update 2
 
--Tested the server against garbage json input, works
--Tested the server against 100 connections at once, works
--Tested the server against huge message sizes and idle connections, works
--Added a readme manual for how to use this project
+- Tested the server against garbage json input, works
+- Tested the server against 100 connections at once, works
+- Tested the server against huge message sizes and idle connections, works
+- Added a readme manual for how to use this project
 
 
   
