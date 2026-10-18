@@ -1,5 +1,5 @@
 ## How To Run The Server
-
+0. you can check the various features implemented in the update logs
 1. quite simple, just clone the repo and run it locally in the same folder
 2. you can use the multiple clients given, each with a different purpose to test the server
 3. can use ctrl+c to quit the server
