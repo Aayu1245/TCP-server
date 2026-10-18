@@ -1,6 +1,6 @@
 import socket
 import struct
-
+import time
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 def send_message(client, message):
@@ -8,7 +8,10 @@ def send_message(client, message):
     header = struct.pack("!I", len(byte_message))
     final_message = header + byte_message   
     try:
-        client.sendall(final_message)
+        client.sendall(header)
+        print("sent header")
+        time.sleep(8)
+        client.sendall(byte_message)
         print("sent message")
         resp = client.recv(1024).decode()
         return 1, resp

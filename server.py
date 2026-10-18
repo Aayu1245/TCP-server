@@ -7,6 +7,21 @@ import json
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind(("127.0.0.1", 5000))
 server.listen()
+server.settimeout(0.5)
+
+import logging
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(asctime)s | %(levelname)-8s | %(threadName)s | %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+    handlers=[
+        logging.StreamHandler(),  
+        logging.FileHandler("server.log", encoding="utf-8")
+    ]
+)
+
+logger = logging.getLogger(__name__)
 
 
 def pong(id):
@@ -29,7 +44,10 @@ def handle_request(dump):
     except:
         return ""
 
-    req = data["type"]
+    try:
+        req = data["type"]
+    except:
+        return error(data["id"])
     if req in router:
         if req != "ECHO":
             func = router[req]
@@ -42,54 +60,39 @@ def handle_request(dump):
         stri = error(data["id"])
     return stri
 
-def send_message(client, message):
-    byte_message = message.encode("utf-8")
-    header = struct.pack("!I", len(byte_message))
-    final_message = header + byte_message   
+def send_message(client, message): 
     try:
-        client.sendall(final_message)
-        print("sent reply to client")
+        message = bytes(message.encode())
+        client.sendall(message)
+        logger.info("sent reply to client")
         return 1, ""
     except Exception as e:
         return -1, str(e)
 
 def recv(client):
-    data = client.recv(4)
-    if not data:
-        return -2, ""
-    data = struct.unpack("!I", data)[0]
-    code, message = recv_exactly(client, data)
-    message = message.decode("utf-8")
-    return code, message
-
-def continuethread(num, client, address):
-    print("Connection number: ", num)
-
-    try:
-        print("Connection from: ", address)
-        while True:
-            code, message = recv(client)
-            if not message:
-                break          
-            if (code == 0):
-                print("Connection closed in between, message: ", message)
-            else:
-                print(message)
-                if (code == 1):
-                    reply = handle_request(message)
-                    
-                    if (reply):
-                        send_message(client, reply)
-                    else:
-                        send_message(client, "Thanks, received. NO JSON")
-                else:
-                    send_message(client, "error")
-        
-    except ConnectionResetError:
-        print("Connection reset error")
-    finally:
-        print("Closing socket number: ", num)
-        client.close()
+    data = bytearray()
+    try:    
+        try:
+            while(len(data) < 4):
+                chunk = client.recv(4-len(data))
+                if not chunk:
+                    return -2, ""
+                data.extend(chunk)
+        except (TimeoutError):
+            return -5, "No client activity"
+        if not data:
+            return -2, ""
+        data = struct.unpack("!I", data)[0]
+        if (data > 1024*1024):
+            return -3, "Msg too big"
+        code, message = recv_exactly(client, data)
+        try:
+            message = message.decode("utf-8")
+        except UnicodeDecodeError:
+            message = message
+        return code, message
+    except OSError:
+        return -6, ""
 
 def recv_exactly(client, data):
     message = bytearray()
@@ -100,19 +103,87 @@ def recv_exactly(client, data):
                 return 0, message
             message.extend(cur_message)
         return 1, message
-    except (OSError, UnicodeDecodeError) as e:
+    except (UnicodeDecodeError) as e:
         return -1, str(e)
+    except (TimeoutError) as t:
+        return -5, "No client activity"
+    except OSError:
+        return -6, ""
+
+
+def continuethread(num, client, address):
+    logger.info(f"Connection number: {num}")
+
+    try:
+        logger.info(f"Connection from: {address}")
+        while True:
+            code, message = recv(client)
+            if not message:
+                break          
+            if (code == 0):
+                logger.warning(f"Connection closed in between, message: {message}")
+            elif (code == -5):
+                logger.warning(message)
+                send_message(client, "No client activity, closing connection")
+                break
+            elif (code == -3):
+                logger.warning(message)
+                send_message(client, "Message too big")
+                break
+            else:
+                logger.info(f"Msg received: {message}")
+                if (code == 1):
+                    reply = handle_request(message)
+                    if (reply != ""):
+                        send_message(client, reply)
+                    else:
+                        send_message(client, "Thanks, received. NO JSON")
+                else:
+                    send_message(client, "error")
+        
+    except ConnectionResetError:
+        logger.error("Connection reset error")
+    except OSError:
+        logger.error(f"Program terminated")
+    finally:
+        logger.info(f"Closing socket number: {num}")
+        client.close()
+
+
+    
         
         
-print("server started")
+logger.info("server started")
 count = 0
-while True:
-    client, address = server.accept()
-    threading.Thread(
-        target=continuethread,
-        args = (count, client, address)
-    ).start()
-    count += 1
+client = None
+
+try:
+    threads = []
+    while True:
+        try:
+            client, address = server.accept()
+        except TimeoutError:
+            continue
+        client.settimeout(30)
+        t = threading.Thread(
+            target=continuethread,
+            args = (count, client, address)
+        )
+        t.start()
+        threads.append(t)
+        count += 1
+except KeyboardInterrupt:
+    logger.warning("Detected forced shutdown, closing server")
+    for t in threads:
+        t.join()
+    if (client):
+        client.close()
+    server.close()
+
+
+
+
+        
     
 
     

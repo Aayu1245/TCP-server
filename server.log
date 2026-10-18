@@ -1,0 +1,17 @@
+2026-10-18 11:26:01 | INFO     | MainThread | server started
+2026-10-18 11:26:13 | INFO     | Thread-1 (continuethread) | Connection number: 0
+2026-10-18 11:26:13 | INFO     | Thread-1 (continuethread) | Connection from: ('127.0.0.1', 38931)
+2026-10-18 11:26:13 | INFO     | Thread-1 (continuethread) | Msg received: Message No. 0
+2026-10-18 11:26:13 | INFO     | Thread-1 (continuethread) | sent reply to client
+2026-10-18 11:26:13 | INFO     | Thread-1 (continuethread) | Closing socket number: 0
+2026-10-18 11:26:44 | INFO     | Thread-2 (continuethread) | Connection number: 1
+2026-10-18 11:26:44 | INFO     | Thread-2 (continuethread) | Connection from: ('127.0.0.1', 38959)
+2026-10-18 11:26:44 | INFO     | Thread-2 (continuethread) | Msg received: Message No. 0
+2026-10-18 11:26:44 | INFO     | Thread-2 (continuethread) | sent reply to client
+2026-10-18 11:26:44 | INFO     | Thread-2 (continuethread) | Closing socket number: 1
+2026-10-18 11:27:16 | INFO     | Thread-3 (continuethread) | Connection number: 2
+2026-10-18 11:27:16 | INFO     | Thread-3 (continuethread) | Connection from: ('127.0.0.1', 38974)
+2026-10-18 11:27:23 | WARNING  | MainThread | Detected forced shutdown, closing server
+2026-10-18 11:27:24 | INFO     | Thread-3 (continuethread) | Msg received: Message No. 0
+2026-10-18 11:27:24 | INFO     | Thread-3 (continuethread) | sent reply to client
+2026-10-18 11:27:24 | INFO     | Thread-3 (continuethread) | Closing socket number: 2

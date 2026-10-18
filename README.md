@@ -30,4 +30,13 @@
 -Server now handles decoding the json request and encoding the json response
 -The requests handled are PING, ECHO, QUIT, invalid requests and non json requests
 
+## Day 4
+
+### Update 1
+
+-Added timeout for socket connections to server to disconnect idle clients
+-Added message size limit to be 1MB
+-Added a clean shutdown protocol for keyboard interrupt via ctrl+c for server
+-Removed print statements and added logging to server
+
   
