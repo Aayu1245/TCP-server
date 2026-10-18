@@ -15,3 +15,588 @@
 2026-10-18 11:27:24 | INFO     | Thread-3 (continuethread) | Msg received: Message No. 0
 2026-10-18 11:27:24 | INFO     | Thread-3 (continuethread) | sent reply to client
 2026-10-18 11:27:24 | INFO     | Thread-3 (continuethread) | Closing socket number: 2
+2026-10-18 21:14:21 | INFO     | MainThread | server started
+2026-10-18 21:14:28 | INFO     | Thread-1 (continuethread) | Connection number: 0
+2026-10-18 21:14:28 | INFO     | Thread-1 (continuethread) | Connection from: ('127.0.0.1', 57923)
+2026-10-18 21:14:28 | INFO     | Thread-1 (continuethread) | Msg received: message no. 0
+2026-10-18 21:14:28 | INFO     | Thread-1 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-2 (continuethread) | Connection number: 1
+2026-10-18 21:14:28 | INFO     | Thread-2 (continuethread) | Connection from: ('127.0.0.1', 57924)
+2026-10-18 21:14:28 | INFO     | Thread-3 (continuethread) | Connection number: 2
+2026-10-18 21:14:28 | INFO     | Thread-2 (continuethread) | Msg received: message no. 1
+2026-10-18 21:14:28 | INFO     | Thread-3 (continuethread) | Connection from: ('127.0.0.1', 57925)
+2026-10-18 21:14:28 | INFO     | Thread-4 (continuethread) | Connection number: 3
+2026-10-18 21:14:28 | INFO     | Thread-2 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-3 (continuethread) | Msg received: message no. 2
+2026-10-18 21:14:28 | INFO     | Thread-5 (continuethread) | Connection number: 4
+2026-10-18 21:14:28 | INFO     | Thread-5 (continuethread) | Connection from: ('127.0.0.1', 57927)
+2026-10-18 21:14:28 | INFO     | Thread-6 (continuethread) | Connection number: 5
+2026-10-18 21:14:28 | INFO     | Thread-4 (continuethread) | Connection from: ('127.0.0.1', 57926)
+2026-10-18 21:14:28 | INFO     | Thread-5 (continuethread) | Msg received: message no. 4
+2026-10-18 21:14:28 | INFO     | Thread-7 (continuethread) | Connection number: 6
+2026-10-18 21:14:28 | INFO     | Thread-5 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-3 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-8 (continuethread) | Connection number: 7
+2026-10-18 21:14:28 | INFO     | Thread-4 (continuethread) | Msg received: message no. 3
+2026-10-18 21:14:28 | INFO     | Thread-7 (continuethread) | Connection from: ('127.0.0.1', 57929)
+2026-10-18 21:14:28 | INFO     | Thread-6 (continuethread) | Connection from: ('127.0.0.1', 57928)
+2026-10-18 21:14:28 | INFO     | Thread-4 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-8 (continuethread) | Connection from: ('127.0.0.1', 57930)
+2026-10-18 21:14:28 | INFO     | Thread-9 (continuethread) | Connection number: 8
+2026-10-18 21:14:28 | INFO     | Thread-7 (continuethread) | Msg received: message no. 6
+2026-10-18 21:14:28 | INFO     | Thread-9 (continuethread) | Connection from: ('127.0.0.1', 57931)
+2026-10-18 21:14:28 | INFO     | Thread-6 (continuethread) | Msg received: message no. 5
+2026-10-18 21:14:28 | INFO     | Thread-12 (continuethread) | Connection number: 11
+2026-10-18 21:14:28 | INFO     | Thread-10 (continuethread) | Connection number: 9
+2026-10-18 21:14:28 | INFO     | Thread-7 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-12 (continuethread) | Connection from: ('127.0.0.1', 57934)
+2026-10-18 21:14:28 | INFO     | Thread-8 (continuethread) | Msg received: message no. 7
+2026-10-18 21:14:28 | INFO     | Thread-11 (continuethread) | Connection number: 10
+2026-10-18 21:14:28 | INFO     | Thread-6 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-9 (continuethread) | Msg received: message no. 8
+2026-10-18 21:14:28 | INFO     | Thread-10 (continuethread) | Connection from: ('127.0.0.1', 57932)
+2026-10-18 21:14:28 | INFO     | Thread-15 (continuethread) | Connection number: 14
+2026-10-18 21:14:28 | INFO     | Thread-8 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-12 (continuethread) | Msg received: message no. 11
+2026-10-18 21:14:28 | INFO     | Thread-11 (continuethread) | Connection from: ('127.0.0.1', 57933)
+2026-10-18 21:14:28 | INFO     | Thread-14 (continuethread) | Connection number: 13
+2026-10-18 21:14:28 | INFO     | Thread-13 (continuethread) | Connection number: 12
+2026-10-18 21:14:28 | INFO     | Thread-10 (continuethread) | Msg received: message no. 9
+2026-10-18 21:14:28 | INFO     | Thread-9 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-15 (continuethread) | Connection from: ('127.0.0.1', 57937)
+2026-10-18 21:14:28 | INFO     | Thread-16 (continuethread) | Connection number: 15
+2026-10-18 21:14:28 | INFO     | Thread-11 (continuethread) | Msg received: message no. 10
+2026-10-18 21:14:28 | INFO     | Thread-17 (continuethread) | Connection number: 16
+2026-10-18 21:14:28 | INFO     | Thread-12 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-14 (continuethread) | Connection from: ('127.0.0.1', 57936)
+2026-10-18 21:14:28 | INFO     | Thread-18 (continuethread) | Connection number: 17
+2026-10-18 21:14:28 | INFO     | Thread-13 (continuethread) | Connection from: ('127.0.0.1', 57935)
+2026-10-18 21:14:28 | INFO     | Thread-10 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-19 (continuethread) | Connection number: 18
+2026-10-18 21:14:28 | INFO     | Thread-16 (continuethread) | Connection from: ('127.0.0.1', 57938)
+2026-10-18 21:14:28 | INFO     | Thread-20 (continuethread) | Connection number: 19
+2026-10-18 21:14:28 | INFO     | Thread-15 (continuethread) | Msg received: message no. 14
+2026-10-18 21:14:28 | INFO     | Thread-17 (continuethread) | Connection from: ('127.0.0.1', 57939)
+2026-10-18 21:14:28 | INFO     | Thread-11 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-21 (continuethread) | Connection number: 20
+2026-10-18 21:14:28 | INFO     | Thread-18 (continuethread) | Connection from: ('127.0.0.1', 57940)
+2026-10-18 21:14:28 | INFO     | Thread-14 (continuethread) | Msg received: message no. 13
+2026-10-18 21:14:28 | INFO     | Thread-22 (continuethread) | Connection number: 21
+2026-10-18 21:14:28 | INFO     | Thread-19 (continuethread) | Connection from: ('127.0.0.1', 57941)
+2026-10-18 21:14:28 | INFO     | Thread-23 (continuethread) | Connection number: 22
+2026-10-18 21:14:28 | INFO     | Thread-13 (continuethread) | Msg received: message no. 12
+2026-10-18 21:14:28 | INFO     | Thread-16 (continuethread) | Msg received: message no. 15
+2026-10-18 21:14:28 | INFO     | Thread-24 (continuethread) | Connection number: 23
+2026-10-18 21:14:28 | INFO     | Thread-20 (continuethread) | Connection from: ('127.0.0.1', 57942)
+2026-10-18 21:14:28 | INFO     | Thread-15 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-25 (continuethread) | Connection number: 24
+2026-10-18 21:14:28 | INFO     | Thread-17 (continuethread) | Msg received: message no. 16
+2026-10-18 21:14:28 | INFO     | Thread-21 (continuethread) | Connection from: ('127.0.0.1', 57943)
+2026-10-18 21:14:28 | INFO     | Thread-18 (continuethread) | Msg received: message no. 17
+2026-10-18 21:14:28 | INFO     | Thread-26 (continuethread) | Connection number: 25
+2026-10-18 21:14:28 | INFO     | Thread-22 (continuethread) | Connection from: ('127.0.0.1', 57944)
+2026-10-18 21:14:28 | INFO     | Thread-14 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-27 (continuethread) | Connection number: 26
+2026-10-18 21:14:28 | INFO     | Thread-23 (continuethread) | Connection from: ('127.0.0.1', 57945)
+2026-10-18 21:14:28 | INFO     | Thread-28 (continuethread) | Connection number: 27
+2026-10-18 21:14:28 | INFO     | Thread-19 (continuethread) | Msg received: message no. 18
+2026-10-18 21:14:28 | INFO     | Thread-13 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-24 (continuethread) | Connection from: ('127.0.0.1', 57946)
+2026-10-18 21:14:28 | INFO     | Thread-16 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-29 (continuethread) | Connection number: 28
+2026-10-18 21:14:28 | INFO     | Thread-20 (continuethread) | Msg received: message no. 19
+2026-10-18 21:14:28 | INFO     | Thread-25 (continuethread) | Connection from: ('127.0.0.1', 57947)
+2026-10-18 21:14:28 | INFO     | Thread-30 (continuethread) | Connection number: 29
+2026-10-18 21:14:28 | INFO     | Thread-17 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-21 (continuethread) | Msg received: message no. 20
+2026-10-18 21:14:28 | INFO     | Thread-31 (continuethread) | Connection number: 30
+2026-10-18 21:14:28 | INFO     | Thread-18 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-26 (continuethread) | Connection from: ('127.0.0.1', 57948)
+2026-10-18 21:14:28 | INFO     | Thread-32 (continuethread) | Connection number: 31
+2026-10-18 21:14:28 | INFO     | Thread-22 (continuethread) | Msg received: message no. 21
+2026-10-18 21:14:28 | INFO     | Thread-27 (continuethread) | Connection from: ('127.0.0.1', 57949)
+2026-10-18 21:14:28 | INFO     | Thread-33 (continuethread) | Connection number: 32
+2026-10-18 21:14:28 | INFO     | Thread-28 (continuethread) | Connection from: ('127.0.0.1', 57950)
+2026-10-18 21:14:28 | INFO     | Thread-23 (continuethread) | Msg received: message no. 22
+2026-10-18 21:14:28 | INFO     | Thread-34 (continuethread) | Connection number: 33
+2026-10-18 21:14:28 | INFO     | Thread-35 (continuethread) | Connection number: 34
+2026-10-18 21:14:28 | INFO     | Thread-19 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-36 (continuethread) | Connection number: 35
+2026-10-18 21:14:28 | INFO     | Thread-24 (continuethread) | Msg received: message no. 23
+2026-10-18 21:14:28 | INFO     | Thread-29 (continuethread) | Connection from: ('127.0.0.1', 57951)
+2026-10-18 21:14:28 | INFO     | Thread-20 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-38 (continuethread) | Connection number: 37
+2026-10-18 21:14:28 | INFO     | Thread-37 (continuethread) | Connection number: 36
+2026-10-18 21:14:28 | INFO     | Thread-25 (continuethread) | Msg received: message no. 24
+2026-10-18 21:14:28 | INFO     | Thread-30 (continuethread) | Connection from: ('127.0.0.1', 57952)
+2026-10-18 21:14:28 | INFO     | Thread-31 (continuethread) | Connection from: ('127.0.0.1', 57953)
+2026-10-18 21:14:28 | INFO     | Thread-21 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-39 (continuethread) | Connection number: 38
+2026-10-18 21:14:28 | INFO     | Thread-40 (continuethread) | Connection number: 39
+2026-10-18 21:14:28 | INFO     | Thread-32 (continuethread) | Connection from: ('127.0.0.1', 57954)
+2026-10-18 21:14:28 | INFO     | Thread-26 (continuethread) | Msg received: message no. 25
+2026-10-18 21:14:28 | INFO     | Thread-41 (continuethread) | Connection number: 40
+2026-10-18 21:14:28 | INFO     | Thread-22 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-33 (continuethread) | Connection from: ('127.0.0.1', 57955)
+2026-10-18 21:14:28 | INFO     | Thread-27 (continuethread) | Msg received: message no. 26
+2026-10-18 21:14:28 | INFO     | Thread-42 (continuethread) | Connection number: 41
+2026-10-18 21:14:28 | INFO     | Thread-28 (continuethread) | Msg received: message no. 27
+2026-10-18 21:14:28 | INFO     | Thread-34 (continuethread) | Connection from: ('127.0.0.1', 57956)
+2026-10-18 21:14:28 | INFO     | Thread-23 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-35 (continuethread) | Connection from: ('127.0.0.1', 57957)
+2026-10-18 21:14:28 | INFO     | Thread-43 (continuethread) | Connection number: 42
+2026-10-18 21:14:28 | INFO     | Thread-36 (continuethread) | Connection from: ('127.0.0.1', 57958)
+2026-10-18 21:14:28 | INFO     | Thread-44 (continuethread) | Connection number: 43
+2026-10-18 21:14:28 | INFO     | Thread-24 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-45 (continuethread) | Connection number: 44
+2026-10-18 21:14:28 | INFO     | Thread-29 (continuethread) | Msg received: message no. 28
+2026-10-18 21:14:28 | INFO     | Thread-38 (continuethread) | Connection from: ('127.0.0.1', 57960)
+2026-10-18 21:14:28 | INFO     | Thread-46 (continuethread) | Connection number: 45
+2026-10-18 21:14:28 | INFO     | Thread-37 (continuethread) | Connection from: ('127.0.0.1', 57959)
+2026-10-18 21:14:28 | INFO     | Thread-25 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-47 (continuethread) | Connection number: 46
+2026-10-18 21:14:28 | INFO     | Thread-30 (continuethread) | Msg received: message no. 29
+2026-10-18 21:14:28 | INFO     | Thread-39 (continuethread) | Connection from: ('127.0.0.1', 57961)
+2026-10-18 21:14:28 | INFO     | Thread-31 (continuethread) | Msg received: message no. 30
+2026-10-18 21:14:28 | INFO     | Thread-40 (continuethread) | Connection from: ('127.0.0.1', 57962)
+2026-10-18 21:14:28 | INFO     | Thread-48 (continuethread) | Connection number: 47
+2026-10-18 21:14:28 | INFO     | Thread-32 (continuethread) | Msg received: message no. 31
+2026-10-18 21:14:28 | INFO     | Thread-49 (continuethread) | Connection number: 48
+2026-10-18 21:14:28 | INFO     | Thread-41 (continuethread) | Connection from: ('127.0.0.1', 57963)
+2026-10-18 21:14:28 | INFO     | Thread-26 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-50 (continuethread) | Connection number: 49
+2026-10-18 21:14:28 | INFO     | Thread-33 (continuethread) | Msg received: message no. 32
+2026-10-18 21:14:28 | INFO     | Thread-27 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-42 (continuethread) | Connection from: ('127.0.0.1', 57964)
+2026-10-18 21:14:28 | INFO     | Thread-51 (continuethread) | Connection number: 50
+2026-10-18 21:14:28 | INFO     | Thread-28 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-34 (continuethread) | Msg received: message no. 33
+2026-10-18 21:14:28 | INFO     | Thread-52 (continuethread) | Connection number: 51
+2026-10-18 21:14:28 | INFO     | Thread-43 (continuethread) | Connection from: ('127.0.0.1', 57965)
+2026-10-18 21:14:28 | INFO     | Thread-35 (continuethread) | Msg received: message no. 34
+2026-10-18 21:14:28 | INFO     | Thread-53 (continuethread) | Connection number: 52
+2026-10-18 21:14:28 | INFO     | Thread-44 (continuethread) | Connection from: ('127.0.0.1', 57966)
+2026-10-18 21:14:28 | INFO     | Thread-36 (continuethread) | Msg received: message no. 35
+2026-10-18 21:14:28 | INFO     | Thread-54 (continuethread) | Connection number: 53
+2026-10-18 21:14:28 | INFO     | Thread-45 (continuethread) | Connection from: ('127.0.0.1', 57967)
+2026-10-18 21:14:28 | INFO     | Thread-29 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-55 (continuethread) | Connection number: 54
+2026-10-18 21:14:28 | INFO     | Thread-46 (continuethread) | Connection from: ('127.0.0.1', 57968)
+2026-10-18 21:14:28 | INFO     | Thread-38 (continuethread) | Msg received: message no. 37
+2026-10-18 21:14:28 | INFO     | Thread-56 (continuethread) | Connection number: 55
+2026-10-18 21:14:28 | INFO     | Thread-37 (continuethread) | Msg received: message no. 36
+2026-10-18 21:14:28 | INFO     | Thread-57 (continuethread) | Connection number: 56
+2026-10-18 21:14:28 | INFO     | Thread-47 (continuethread) | Connection from: ('127.0.0.1', 57969)
+2026-10-18 21:14:28 | INFO     | Thread-30 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-58 (continuethread) | Connection number: 57
+2026-10-18 21:14:28 | INFO     | Thread-39 (continuethread) | Msg received: message no. 38
+2026-10-18 21:14:28 | INFO     | Thread-31 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-59 (continuethread) | Connection number: 58
+2026-10-18 21:14:28 | INFO     | Thread-48 (continuethread) | Connection from: ('127.0.0.1', 57970)
+2026-10-18 21:14:28 | INFO     | Thread-40 (continuethread) | Msg received: message no. 39
+2026-10-18 21:14:28 | INFO     | Thread-60 (continuethread) | Connection number: 59
+2026-10-18 21:14:28 | INFO     | Thread-49 (continuethread) | Connection from: ('127.0.0.1', 57971)
+2026-10-18 21:14:28 | INFO     | Thread-32 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-61 (continuethread) | Connection number: 60
+2026-10-18 21:14:28 | INFO     | Thread-50 (continuethread) | Connection from: ('127.0.0.1', 57972)
+2026-10-18 21:14:28 | INFO     | Thread-62 (continuethread) | Connection number: 61
+2026-10-18 21:14:28 | INFO     | Thread-41 (continuethread) | Msg received: message no. 40
+2026-10-18 21:14:28 | INFO     | Thread-33 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-63 (continuethread) | Connection number: 62
+2026-10-18 21:14:28 | INFO     | Thread-42 (continuethread) | Msg received: message no. 41
+2026-10-18 21:14:28 | INFO     | Thread-51 (continuethread) | Connection from: ('127.0.0.1', 57973)
+2026-10-18 21:14:28 | INFO     | Thread-64 (continuethread) | Connection number: 63
+2026-10-18 21:14:28 | INFO     | Thread-52 (continuethread) | Connection from: ('127.0.0.1', 57974)
+2026-10-18 21:14:28 | INFO     | Thread-34 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-65 (continuethread) | Connection number: 64
+2026-10-18 21:14:28 | INFO     | Thread-53 (continuethread) | Connection from: ('127.0.0.1', 57975)
+2026-10-18 21:14:28 | INFO     | Thread-43 (continuethread) | Msg received: message no. 42
+2026-10-18 21:14:28 | INFO     | Thread-35 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-66 (continuethread) | Connection number: 65
+2026-10-18 21:14:28 | INFO     | Thread-44 (continuethread) | Msg received: message no. 43
+2026-10-18 21:14:28 | INFO     | Thread-54 (continuethread) | Connection from: ('127.0.0.1', 57976)
+2026-10-18 21:14:28 | INFO     | Thread-67 (continuethread) | Connection number: 66
+2026-10-18 21:14:28 | INFO     | Thread-36 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-68 (continuethread) | Connection number: 67
+2026-10-18 21:14:28 | INFO     | Thread-45 (continuethread) | Msg received: message no. 44
+2026-10-18 21:14:28 | INFO     | Thread-55 (continuethread) | Connection from: ('127.0.0.1', 57977)
+2026-10-18 21:14:28 | INFO     | Thread-69 (continuethread) | Connection number: 68
+2026-10-18 21:14:28 | INFO     | Thread-46 (continuethread) | Msg received: message no. 45
+2026-10-18 21:14:28 | INFO     | Thread-56 (continuethread) | Connection from: ('127.0.0.1', 57978)
+2026-10-18 21:14:28 | INFO     | Thread-38 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-70 (continuethread) | Connection number: 69
+2026-10-18 21:14:28 | INFO     | Thread-57 (continuethread) | Connection from: ('127.0.0.1', 57979)
+2026-10-18 21:14:28 | INFO     | Thread-37 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-71 (continuethread) | Connection number: 70
+2026-10-18 21:14:28 | INFO     | Thread-47 (continuethread) | Msg received: message no. 46
+2026-10-18 21:14:28 | INFO     | Thread-72 (continuethread) | Connection number: 71
+2026-10-18 21:14:28 | INFO     | Thread-58 (continuethread) | Connection from: ('127.0.0.1', 57980)
+2026-10-18 21:14:28 | INFO     | Thread-39 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-73 (continuethread) | Connection number: 72
+2026-10-18 21:14:28 | INFO     | Thread-74 (continuethread) | Connection number: 73
+2026-10-18 21:14:28 | INFO     | Thread-40 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-59 (continuethread) | Connection from: ('127.0.0.1', 57981)
+2026-10-18 21:14:28 | INFO     | Thread-48 (continuethread) | Msg received: message no. 47
+2026-10-18 21:14:28 | INFO     | Thread-75 (continuethread) | Connection number: 74
+2026-10-18 21:14:28 | INFO     | Thread-60 (continuethread) | Connection from: ('127.0.0.1', 57982)
+2026-10-18 21:14:28 | INFO     | Thread-49 (continuethread) | Msg received: message no. 48
+2026-10-18 21:14:28 | INFO     | Thread-76 (continuethread) | Connection number: 75
+2026-10-18 21:14:28 | INFO     | Thread-61 (continuethread) | Connection from: ('127.0.0.1', 57983)
+2026-10-18 21:14:28 | INFO     | Thread-62 (continuethread) | Connection from: ('127.0.0.1', 57984)
+2026-10-18 21:14:28 | INFO     | Thread-77 (continuethread) | Connection number: 76
+2026-10-18 21:14:28 | INFO     | Thread-50 (continuethread) | Msg received: message no. 49
+2026-10-18 21:14:28 | INFO     | Thread-63 (continuethread) | Connection from: ('127.0.0.1', 57985)
+2026-10-18 21:14:28 | INFO     | Thread-41 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-78 (continuethread) | Connection number: 77
+2026-10-18 21:14:28 | INFO     | Thread-64 (continuethread) | Connection from: ('127.0.0.1', 57986)
+2026-10-18 21:14:28 | INFO     | Thread-42 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-51 (continuethread) | Msg received: message no. 50
+2026-10-18 21:14:28 | INFO     | Thread-52 (continuethread) | Msg received: message no. 51
+2026-10-18 21:14:28 | INFO     | Thread-79 (continuethread) | Connection number: 78
+2026-10-18 21:14:28 | INFO     | Thread-65 (continuethread) | Connection from: ('127.0.0.1', 57987)
+2026-10-18 21:14:28 | INFO     | Thread-80 (continuethread) | Connection number: 79
+2026-10-18 21:14:28 | INFO     | Thread-53 (continuethread) | Msg received: message no. 52
+2026-10-18 21:14:28 | INFO     | Thread-43 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-66 (continuethread) | Connection from: ('127.0.0.1', 57988)
+2026-10-18 21:14:28 | INFO     | Thread-81 (continuethread) | Connection number: 80
+2026-10-18 21:14:28 | INFO     | Thread-67 (continuethread) | Connection from: ('127.0.0.1', 57989)
+2026-10-18 21:14:28 | INFO     | Thread-82 (continuethread) | Connection number: 81
+2026-10-18 21:14:28 | INFO     | Thread-44 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-54 (continuethread) | Msg received: message no. 53
+2026-10-18 21:14:28 | INFO     | Thread-68 (continuethread) | Connection from: ('127.0.0.1', 57990)
+2026-10-18 21:14:28 | INFO     | Thread-83 (continuethread) | Connection number: 82
+2026-10-18 21:14:28 | INFO     | Thread-45 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-84 (continuethread) | Connection number: 83
+2026-10-18 21:14:28 | INFO     | Thread-69 (continuethread) | Connection from: ('127.0.0.1', 57991)
+2026-10-18 21:14:28 | INFO     | Thread-55 (continuethread) | Msg received: message no. 54
+2026-10-18 21:14:28 | INFO     | Thread-46 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-85 (continuethread) | Connection number: 84
+2026-10-18 21:14:28 | INFO     | Thread-56 (continuethread) | Msg received: message no. 55
+2026-10-18 21:14:28 | INFO     | Thread-70 (continuethread) | Connection from: ('127.0.0.1', 57992)
+2026-10-18 21:14:28 | INFO     | Thread-86 (continuethread) | Connection number: 85
+2026-10-18 21:14:28 | INFO     | Thread-57 (continuethread) | Msg received: message no. 56
+2026-10-18 21:14:28 | INFO     | Thread-71 (continuethread) | Connection from: ('127.0.0.1', 57993)
+2026-10-18 21:14:28 | INFO     | Thread-87 (continuethread) | Connection number: 86
+2026-10-18 21:14:28 | INFO     | Thread-72 (continuethread) | Connection from: ('127.0.0.1', 57994)
+2026-10-18 21:14:28 | INFO     | Thread-47 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-88 (continuethread) | Connection number: 87
+2026-10-18 21:14:28 | INFO     | Thread-58 (continuethread) | Msg received: message no. 57
+2026-10-18 21:14:28 | INFO     | Thread-73 (continuethread) | Connection from: ('127.0.0.1', 57995)
+2026-10-18 21:14:28 | INFO     | Thread-89 (continuethread) | Connection number: 88
+2026-10-18 21:14:28 | INFO     | Thread-74 (continuethread) | Connection from: ('127.0.0.1', 57996)
+2026-10-18 21:14:28 | INFO     | Thread-59 (continuethread) | Msg received: message no. 58
+2026-10-18 21:14:28 | INFO     | Thread-90 (continuethread) | Connection number: 89
+2026-10-18 21:14:28 | INFO     | Thread-75 (continuethread) | Connection from: ('127.0.0.1', 57997)
+2026-10-18 21:14:28 | INFO     | Thread-48 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-60 (continuethread) | Msg received: message no. 59
+2026-10-18 21:14:28 | INFO     | Thread-91 (continuethread) | Connection number: 90
+2026-10-18 21:14:28 | INFO     | Thread-49 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-76 (continuethread) | Connection from: ('127.0.0.1', 57998)
+2026-10-18 21:14:28 | INFO     | Thread-92 (continuethread) | Connection number: 91
+2026-10-18 21:14:28 | INFO     | Thread-61 (continuethread) | Msg received: message no. 60
+2026-10-18 21:14:28 | INFO     | Thread-62 (continuethread) | Msg received: message no. 61
+2026-10-18 21:14:28 | INFO     | Thread-77 (continuethread) | Connection from: ('127.0.0.1', 57999)
+2026-10-18 21:14:28 | INFO     | Thread-93 (continuethread) | Connection number: 92
+2026-10-18 21:14:28 | INFO     | Thread-63 (continuethread) | Msg received: message no. 62
+2026-10-18 21:14:28 | INFO     | Thread-50 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-94 (continuethread) | Connection number: 93
+2026-10-18 21:14:28 | INFO     | Thread-78 (continuethread) | Connection from: ('127.0.0.1', 58000)
+2026-10-18 21:14:28 | INFO     | Thread-64 (continuethread) | Msg received: message no. 63
+2026-10-18 21:14:28 | INFO     | Thread-95 (continuethread) | Connection number: 94
+2026-10-18 21:14:28 | INFO     | Thread-51 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-96 (continuethread) | Connection number: 95
+2026-10-18 21:14:28 | INFO     | Thread-79 (continuethread) | Connection from: ('127.0.0.1', 58001)
+2026-10-18 21:14:28 | INFO     | Thread-52 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-65 (continuethread) | Msg received: message no. 64
+2026-10-18 21:14:28 | INFO     | Thread-80 (continuethread) | Connection from: ('127.0.0.1', 58002)
+2026-10-18 21:14:28 | INFO     | Thread-53 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-97 (continuethread) | Connection number: 96
+2026-10-18 21:14:28 | INFO     | Thread-66 (continuethread) | Msg received: message no. 65
+2026-10-18 21:14:28 | INFO     | Thread-81 (continuethread) | Connection from: ('127.0.0.1', 58003)
+2026-10-18 21:14:28 | INFO     | Thread-98 (continuethread) | Connection number: 97
+2026-10-18 21:14:28 | INFO     | Thread-82 (continuethread) | Connection from: ('127.0.0.1', 58004)
+2026-10-18 21:14:28 | INFO     | Thread-67 (continuethread) | Msg received: message no. 66
+2026-10-18 21:14:28 | INFO     | Thread-99 (continuethread) | Connection number: 98
+2026-10-18 21:14:28 | INFO     | Thread-54 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-68 (continuethread) | Msg received: message no. 67
+2026-10-18 21:14:28 | INFO     | Thread-83 (continuethread) | Connection from: ('127.0.0.1', 58005)
+2026-10-18 21:14:28 | INFO     | Thread-100 (continuethread) | Connection number: 99
+2026-10-18 21:14:28 | INFO     | Thread-84 (continuethread) | Connection from: ('127.0.0.1', 58007)
+2026-10-18 21:14:28 | INFO     | Thread-69 (continuethread) | Msg received: message no. 68
+2026-10-18 21:14:28 | INFO     | Thread-55 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-85 (continuethread) | Connection from: ('127.0.0.1', 58008)
+2026-10-18 21:14:28 | INFO     | Thread-56 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-86 (continuethread) | Connection from: ('127.0.0.1', 58009)
+2026-10-18 21:14:28 | INFO     | Thread-70 (continuethread) | Msg received: message no. 69
+2026-10-18 21:14:28 | INFO     | Thread-57 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-87 (continuethread) | Connection from: ('127.0.0.1', 58010)
+2026-10-18 21:14:28 | INFO     | Thread-71 (continuethread) | Msg received: message no. 70
+2026-10-18 21:14:28 | INFO     | Thread-72 (continuethread) | Msg received: message no. 71
+2026-10-18 21:14:28 | INFO     | Thread-88 (continuethread) | Connection from: ('127.0.0.1', 58011)
+2026-10-18 21:14:28 | INFO     | Thread-58 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-89 (continuethread) | Connection from: ('127.0.0.1', 58012)
+2026-10-18 21:14:28 | INFO     | Thread-73 (continuethread) | Msg received: message no. 72
+2026-10-18 21:14:28 | INFO     | Thread-74 (continuethread) | Msg received: message no. 73
+2026-10-18 21:14:28 | INFO     | Thread-59 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-90 (continuethread) | Connection from: ('127.0.0.1', 58013)
+2026-10-18 21:14:28 | INFO     | Thread-75 (continuethread) | Msg received: message no. 74
+2026-10-18 21:14:28 | INFO     | Thread-91 (continuethread) | Connection from: ('127.0.0.1', 58014)
+2026-10-18 21:14:28 | INFO     | Thread-60 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-76 (continuethread) | Msg received: message no. 75
+2026-10-18 21:14:28 | INFO     | Thread-92 (continuethread) | Connection from: ('127.0.0.1', 58015)
+2026-10-18 21:14:28 | INFO     | Thread-61 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-62 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-77 (continuethread) | Msg received: message no. 76
+2026-10-18 21:14:28 | INFO     | Thread-93 (continuethread) | Connection from: ('127.0.0.1', 58016)
+2026-10-18 21:14:28 | INFO     | Thread-63 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-94 (continuethread) | Connection from: ('127.0.0.1', 58017)
+2026-10-18 21:14:28 | INFO     | Thread-78 (continuethread) | Msg received: message no. 77
+2026-10-18 21:14:28 | INFO     | Thread-95 (continuethread) | Connection from: ('127.0.0.1', 58018)
+2026-10-18 21:14:28 | INFO     | Thread-64 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-96 (continuethread) | Connection from: ('127.0.0.1', 58019)
+2026-10-18 21:14:28 | INFO     | Thread-79 (continuethread) | Msg received: message no. 78
+2026-10-18 21:14:28 | INFO     | Thread-65 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-80 (continuethread) | Msg received: message no. 79
+2026-10-18 21:14:28 | INFO     | Thread-97 (continuethread) | Connection from: ('127.0.0.1', 58020)
+2026-10-18 21:14:28 | INFO     | Thread-66 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-81 (continuethread) | Msg received: message no. 80
+2026-10-18 21:14:28 | INFO     | Thread-98 (continuethread) | Connection from: ('127.0.0.1', 58021)
+2026-10-18 21:14:28 | INFO     | Thread-82 (continuethread) | Msg received: message no. 81
+2026-10-18 21:14:28 | INFO     | Thread-67 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-99 (continuethread) | Connection from: ('127.0.0.1', 58022)
+2026-10-18 21:14:28 | INFO     | Thread-68 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-100 (continuethread) | Connection from: ('127.0.0.1', 58023)
+2026-10-18 21:14:28 | INFO     | Thread-83 (continuethread) | Msg received: message no. 82
+2026-10-18 21:14:28 | INFO     | Thread-84 (continuethread) | Msg received: message no. 83
+2026-10-18 21:14:28 | INFO     | Thread-69 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-85 (continuethread) | Msg received: message no. 84
+2026-10-18 21:14:28 | INFO     | Thread-86 (continuethread) | Msg received: message no. 85
+2026-10-18 21:14:28 | INFO     | Thread-70 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-87 (continuethread) | Msg received: message no. 86
+2026-10-18 21:14:28 | INFO     | Thread-71 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-72 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-88 (continuethread) | Msg received: message no. 87
+2026-10-18 21:14:28 | INFO     | Thread-73 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-89 (continuethread) | Msg received: message no. 88
+2026-10-18 21:14:28 | INFO     | Thread-74 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-90 (continuethread) | Msg received: message no. 89
+2026-10-18 21:14:28 | INFO     | Thread-75 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-91 (continuethread) | Msg received: message no. 90
+2026-10-18 21:14:28 | INFO     | Thread-76 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-92 (continuethread) | Msg received: message no. 91
+2026-10-18 21:14:28 | INFO     | Thread-77 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-93 (continuethread) | Msg received: message no. 92
+2026-10-18 21:14:28 | INFO     | Thread-94 (continuethread) | Msg received: message no. 93
+2026-10-18 21:14:28 | INFO     | Thread-78 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-95 (continuethread) | Msg received: message no. 94
+2026-10-18 21:14:28 | INFO     | Thread-96 (continuethread) | Msg received: message no. 95
+2026-10-18 21:14:28 | INFO     | Thread-79 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-80 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-97 (continuethread) | Msg received: message no. 96
+2026-10-18 21:14:28 | INFO     | Thread-82 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-98 (continuethread) | Msg received: message no. 97
+2026-10-18 21:14:28 | INFO     | Thread-81 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-99 (continuethread) | Msg received: message no. 98
+2026-10-18 21:14:28 | INFO     | Thread-100 (continuethread) | Msg received: message no. 99
+2026-10-18 21:14:28 | INFO     | Thread-83 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-84 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-86 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-85 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-87 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-88 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-89 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-90 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-91 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-92 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-93 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-94 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-95 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-96 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-97 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-98 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-99 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-100 (continuethread) | sent reply to client
+2026-10-18 21:14:28 | INFO     | Thread-100 (continuethread) | Closing socket number: 99
+2026-10-18 21:14:28 | INFO     | Thread-97 (continuethread) | Closing socket number: 96
+2026-10-18 21:14:28 | INFO     | Thread-96 (continuethread) | Closing socket number: 95
+2026-10-18 21:14:28 | INFO     | Thread-91 (continuethread) | Closing socket number: 90
+2026-10-18 21:14:28 | INFO     | Thread-98 (continuethread) | Closing socket number: 97
+2026-10-18 21:14:28 | INFO     | Thread-94 (continuethread) | Closing socket number: 93
+2026-10-18 21:14:28 | INFO     | Thread-90 (continuethread) | Closing socket number: 89
+2026-10-18 21:14:28 | INFO     | Thread-95 (continuethread) | Closing socket number: 94
+2026-10-18 21:14:28 | INFO     | Thread-93 (continuethread) | Closing socket number: 92
+2026-10-18 21:14:28 | INFO     | Thread-88 (continuethread) | Closing socket number: 87
+2026-10-18 21:14:28 | INFO     | Thread-92 (continuethread) | Closing socket number: 91
+2026-10-18 21:14:28 | INFO     | Thread-99 (continuethread) | Closing socket number: 98
+2026-10-18 21:14:28 | INFO     | Thread-87 (continuethread) | Closing socket number: 86
+2026-10-18 21:14:28 | INFO     | Thread-89 (continuethread) | Closing socket number: 88
+2026-10-18 21:14:28 | INFO     | Thread-84 (continuethread) | Closing socket number: 83
+2026-10-18 21:14:28 | INFO     | Thread-86 (continuethread) | Closing socket number: 85
+2026-10-18 21:14:28 | INFO     | Thread-85 (continuethread) | Closing socket number: 84
+2026-10-18 21:14:28 | INFO     | Thread-81 (continuethread) | Closing socket number: 80
+2026-10-18 21:14:28 | INFO     | Thread-82 (continuethread) | Closing socket number: 81
+2026-10-18 21:14:28 | INFO     | Thread-80 (continuethread) | Closing socket number: 79
+2026-10-18 21:14:28 | INFO     | Thread-77 (continuethread) | Closing socket number: 76
+2026-10-18 21:14:28 | INFO     | Thread-79 (continuethread) | Closing socket number: 78
+2026-10-18 21:14:28 | INFO     | Thread-78 (continuethread) | Closing socket number: 77
+2026-10-18 21:14:28 | INFO     | Thread-83 (continuethread) | Closing socket number: 82
+2026-10-18 21:14:28 | INFO     | Thread-76 (continuethread) | Closing socket number: 75
+2026-10-18 21:14:28 | INFO     | Thread-75 (continuethread) | Closing socket number: 74
+2026-10-18 21:14:28 | INFO     | Thread-74 (continuethread) | Closing socket number: 73
+2026-10-18 21:14:28 | INFO     | Thread-71 (continuethread) | Closing socket number: 70
+2026-10-18 21:14:28 | INFO     | Thread-72 (continuethread) | Closing socket number: 71
+2026-10-18 21:14:28 | INFO     | Thread-73 (continuethread) | Closing socket number: 72
+2026-10-18 21:14:28 | INFO     | Thread-70 (continuethread) | Closing socket number: 69
+2026-10-18 21:14:28 | INFO     | Thread-68 (continuethread) | Closing socket number: 67
+2026-10-18 21:14:28 | INFO     | Thread-66 (continuethread) | Closing socket number: 65
+2026-10-18 21:14:28 | INFO     | Thread-64 (continuethread) | Closing socket number: 63
+2026-10-18 21:14:28 | INFO     | Thread-67 (continuethread) | Closing socket number: 66
+2026-10-18 21:14:28 | INFO     | Thread-65 (continuethread) | Closing socket number: 64
+2026-10-18 21:14:28 | INFO     | Thread-69 (continuethread) | Closing socket number: 68
+2026-10-18 21:14:28 | INFO     | Thread-63 (continuethread) | Closing socket number: 62
+2026-10-18 21:14:28 | INFO     | Thread-62 (continuethread) | Closing socket number: 61
+2026-10-18 21:14:28 | INFO     | Thread-61 (continuethread) | Closing socket number: 60
+2026-10-18 21:14:28 | INFO     | Thread-60 (continuethread) | Closing socket number: 59
+2026-10-18 21:14:28 | INFO     | Thread-56 (continuethread) | Closing socket number: 55
+2026-10-18 21:14:28 | INFO     | Thread-59 (continuethread) | Closing socket number: 58
+2026-10-18 21:14:28 | INFO     | Thread-52 (continuethread) | Closing socket number: 51
+2026-10-18 21:14:28 | INFO     | Thread-50 (continuethread) | Closing socket number: 49
+2026-10-18 21:14:28 | INFO     | Thread-57 (continuethread) | Closing socket number: 56
+2026-10-18 21:14:28 | INFO     | Thread-53 (continuethread) | Closing socket number: 52
+2026-10-18 21:14:28 | INFO     | Thread-54 (continuethread) | Closing socket number: 53
+2026-10-18 21:14:28 | INFO     | Thread-58 (continuethread) | Closing socket number: 57
+2026-10-18 21:14:28 | INFO     | Thread-55 (continuethread) | Closing socket number: 54
+2026-10-18 21:14:28 | INFO     | Thread-42 (continuethread) | Closing socket number: 41
+2026-10-18 21:14:28 | INFO     | Thread-49 (continuethread) | Closing socket number: 48
+2026-10-18 21:14:28 | INFO     | Thread-48 (continuethread) | Closing socket number: 47
+2026-10-18 21:14:28 | INFO     | Thread-46 (continuethread) | Closing socket number: 45
+2026-10-18 21:14:28 | INFO     | Thread-45 (continuethread) | Closing socket number: 44
+2026-10-18 21:14:28 | INFO     | Thread-44 (continuethread) | Closing socket number: 43
+2026-10-18 21:14:28 | INFO     | Thread-51 (continuethread) | Closing socket number: 50
+2026-10-18 21:14:28 | INFO     | Thread-43 (continuethread) | Closing socket number: 42
+2026-10-18 21:14:28 | INFO     | Thread-41 (continuethread) | Closing socket number: 40
+2026-10-18 21:14:28 | INFO     | Thread-40 (continuethread) | Closing socket number: 39
+2026-10-18 21:14:28 | INFO     | Thread-39 (continuethread) | Closing socket number: 38
+2026-10-18 21:14:28 | INFO     | Thread-31 (continuethread) | Closing socket number: 30
+2026-10-18 21:14:28 | INFO     | Thread-21 (continuethread) | Closing socket number: 20
+2026-10-18 21:14:28 | INFO     | Thread-47 (continuethread) | Closing socket number: 46
+2026-10-18 21:14:28 | INFO     | Thread-36 (continuethread) | Closing socket number: 35
+2026-10-18 21:14:28 | INFO     | Thread-35 (continuethread) | Closing socket number: 34
+2026-10-18 21:14:28 | INFO     | Thread-32 (continuethread) | Closing socket number: 31
+2026-10-18 21:14:28 | INFO     | Thread-30 (continuethread) | Closing socket number: 29
+2026-10-18 21:14:28 | INFO     | Thread-27 (continuethread) | Closing socket number: 26
+2026-10-18 21:14:28 | INFO     | Thread-29 (continuethread) | Closing socket number: 28
+2026-10-18 21:14:28 | INFO     | Thread-20 (continuethread) | Closing socket number: 19
+2026-10-18 21:14:28 | INFO     | Thread-11 (continuethread) | Closing socket number: 10
+2026-10-18 21:14:28 | INFO     | Thread-34 (continuethread) | Closing socket number: 33
+2026-10-18 21:14:28 | INFO     | Thread-33 (continuethread) | Closing socket number: 32
+2026-10-18 21:14:28 | INFO     | Thread-16 (continuethread) | Closing socket number: 15
+2026-10-18 21:14:28 | INFO     | Thread-15 (continuethread) | Closing socket number: 14
+2026-10-18 21:14:28 | INFO     | Thread-14 (continuethread) | Closing socket number: 13
+2026-10-18 21:14:28 | INFO     | Thread-38 (continuethread) | Closing socket number: 37
+2026-10-18 21:14:28 | INFO     | Thread-12 (continuethread) | Closing socket number: 11
+2026-10-18 21:14:28 | INFO     | Thread-37 (continuethread) | Closing socket number: 36
+2026-10-18 21:14:28 | INFO     | Thread-26 (continuethread) | Closing socket number: 25
+2026-10-18 21:14:28 | INFO     | Thread-19 (continuethread) | Closing socket number: 18
+2026-10-18 21:14:28 | INFO     | Thread-18 (continuethread) | Closing socket number: 17
+2026-10-18 21:14:28 | INFO     | Thread-7 (continuethread) | Closing socket number: 6
+2026-10-18 21:14:28 | INFO     | Thread-25 (continuethread) | Closing socket number: 24
+2026-10-18 21:14:28 | INFO     | Thread-17 (continuethread) | Closing socket number: 16
+2026-10-18 21:14:28 | INFO     | Thread-24 (continuethread) | Closing socket number: 23
+2026-10-18 21:14:28 | INFO     | Thread-23 (continuethread) | Closing socket number: 22
+2026-10-18 21:14:28 | INFO     | Thread-6 (continuethread) | Closing socket number: 5
+2026-10-18 21:14:28 | INFO     | Thread-5 (continuethread) | Closing socket number: 4
+2026-10-18 21:14:28 | INFO     | Thread-28 (continuethread) | Closing socket number: 27
+2026-10-18 21:14:28 | INFO     | Thread-3 (continuethread) | Closing socket number: 2
+2026-10-18 21:14:28 | INFO     | Thread-8 (continuethread) | Closing socket number: 7
+2026-10-18 21:14:28 | INFO     | Thread-22 (continuethread) | Closing socket number: 21
+2026-10-18 21:14:28 | INFO     | Thread-10 (continuethread) | Closing socket number: 9
+2026-10-18 21:14:28 | INFO     | Thread-1 (continuethread) | Closing socket number: 0
+2026-10-18 21:14:28 | INFO     | Thread-9 (continuethread) | Closing socket number: 8
+2026-10-18 21:14:28 | INFO     | Thread-13 (continuethread) | Closing socket number: 12
+2026-10-18 21:14:28 | INFO     | Thread-2 (continuethread) | Closing socket number: 1
+2026-10-18 21:14:28 | INFO     | Thread-4 (continuethread) | Closing socket number: 3
+2026-10-18 21:15:36 | WARNING  | MainThread | Detected forced shutdown, closing server
+2026-10-18 21:16:44 | INFO     | MainThread | server started
+2026-10-18 21:16:49 | INFO     | Thread-1 (continuethread) | Connection number: 0
+2026-10-18 21:16:49 | INFO     | Thread-1 (continuethread) | Connection from: ('127.0.0.1', 39490)
+2026-10-18 21:16:49 | INFO     | Thread-1 (continuethread) | Msg received: {"id": 1, "type": "PING", "data": {}}
+2026-10-18 21:16:49 | INFO     | Thread-1 (continuethread) | sent reply to client
+2026-10-18 21:16:49 | INFO     | Thread-1 (continuethread) | Msg received: {"id": 2, "type": "ECHO", "data": "yoo"}
+2026-10-18 21:16:49 | INFO     | Thread-1 (continuethread) | sent reply to client
+2026-10-18 21:16:49 | INFO     | Thread-1 (continuethread) | Msg received: {"id": 3, "type": "QUIT", "data": {}}
+2026-10-18 21:16:49 | INFO     | Thread-1 (continuethread) | sent reply to client
+2026-10-18 21:16:49 | INFO     | Thread-1 (continuethread) | Msg received: {"type": "INVALID", "data": {}}
+2026-10-18 21:16:49 | INFO     | Thread-1 (continuethread) | Closing socket number: 0
+2026-10-18 21:20:26 | INFO     | MainThread | server started
+2026-10-18 21:20:31 | INFO     | MainThread | server started
+2026-10-18 21:20:36 | INFO     | Thread-1 (continuethread) | Connection number: 0
+2026-10-18 21:20:36 | INFO     | Thread-1 (continuethread) | Connection from: ('127.0.0.1', 14388)
+2026-10-18 21:20:36 | INFO     | Thread-1 (continuethread) | Msg received: {"id": 1, "type": "PING", "data": {}}
+2026-10-18 21:20:36 | INFO     | Thread-1 (continuethread) | sent reply to client
+2026-10-18 21:20:36 | INFO     | Thread-1 (continuethread) | Msg received: {"id": 2, "type": "ECHO", "data": "yoo"}
+2026-10-18 21:20:36 | INFO     | Thread-1 (continuethread) | sent reply to client
+2026-10-18 21:20:36 | INFO     | Thread-1 (continuethread) | Msg received: {"id": 3, "type": "QUIT", "data": {}}
+2026-10-18 21:20:36 | INFO     | Thread-1 (continuethread) | sent reply to client
+2026-10-18 21:20:36 | INFO     | Thread-1 (continuethread) | Msg received: {"type": "INVALID", "data": {}}
+2026-10-18 21:20:36 | INFO     | Thread-1 (continuethread) | sent reply to client
+2026-10-18 21:21:06 | WARNING  | Thread-1 (continuethread) | No client activity
+2026-10-18 21:21:06 | INFO     | Thread-1 (continuethread) | sent reply to client
+2026-10-18 21:21:06 | INFO     | Thread-1 (continuethread) | Closing socket number: 0
+2026-10-18 21:21:40 | INFO     | Thread-2 (continuethread) | Connection number: 1
+2026-10-18 21:21:40 | INFO     | Thread-2 (continuethread) | Connection from: ('127.0.0.1', 14407)
+2026-10-18 21:21:40 | INFO     | Thread-2 (continuethread) | Msg received: {"id": 1, "type": "PING", "data": {}}
+2026-10-18 21:21:40 | INFO     | Thread-2 (continuethread) | sent reply to client
+2026-10-18 21:21:40 | INFO     | Thread-2 (continuethread) | Msg received: {"id": 2, "type": "ECHO", "data": "yoo"}
+2026-10-18 21:21:40 | INFO     | Thread-2 (continuethread) | sent reply to client
+2026-10-18 21:21:40 | INFO     | Thread-2 (continuethread) | Msg received: {"id": 3, "type": "QUIT", "data": {}}
+2026-10-18 21:21:40 | INFO     | Thread-2 (continuethread) | sent reply to client
+2026-10-18 21:21:40 | INFO     | Thread-2 (continuethread) | Msg received: {"type": "INVALID", "data": {}}
+2026-10-18 21:21:40 | INFO     | Thread-2 (continuethread) | sent reply to client
+2026-10-18 21:22:10 | WARNING  | Thread-2 (continuethread) | No client activity
+2026-10-18 21:22:10 | INFO     | Thread-2 (continuethread) | sent reply to client
+2026-10-18 21:22:10 | INFO     | Thread-2 (continuethread) | Closing socket number: 1
+2026-10-18 21:23:17 | WARNING  | MainThread | Detected forced shutdown, closing server
+2026-10-18 21:31:05 | INFO     | MainThread | server started
+2026-10-18 21:31:09 | INFO     | Thread-1 (continuethread) | Connection number: 0
+2026-10-18 21:31:09 | INFO     | Thread-1 (continuethread) | Connection from: ('127.0.0.1', 51354)
+2026-10-18 21:31:17 | INFO     | Thread-1 (continuethread) | Msg received: Message No. 0
+2026-10-18 21:31:17 | INFO     | Thread-1 (continuethread) | sent reply to client
+2026-10-18 21:31:17 | INFO     | Thread-1 (continuethread) | Closing socket number: 0
+2026-10-18 21:31:27 | INFO     | Thread-2 (continuethread) | Connection number: 1
+2026-10-18 21:31:27 | INFO     | Thread-2 (continuethread) | Connection from: ('127.0.0.1', 51370)
+2026-10-18 21:31:40 | INFO     | Thread-2 (continuethread) | Msg received: Message No. 1
+2026-10-18 21:31:40 | INFO     | Thread-2 (continuethread) | sent reply to client
+2026-10-18 21:31:40 | INFO     | Thread-2 (continuethread) | Closing socket number: 1
+2026-10-18 21:32:00 | INFO     | Thread-3 (continuethread) | Connection number: 2
+2026-10-18 21:32:00 | INFO     | Thread-3 (continuethread) | Connection from: ('127.0.0.1', 51409)
+2026-10-18 21:32:00 | INFO     | Thread-3 (continuethread) | Msg received: Hihi
+2026-10-18 21:32:00 | INFO     | Thread-3 (continuethread) | sent reply to client
+2026-10-18 21:32:00 | INFO     | Thread-3 (continuethread) | Msg received: Goat
+2026-10-18 21:32:00 | INFO     | Thread-3 (continuethread) | sent reply to client
+2026-10-18 21:32:00 | INFO     | Thread-3 (continuethread) | Msg received: Messi
+2026-10-18 21:32:00 | INFO     | Thread-3 (continuethread) | sent reply to client
+2026-10-18 21:32:07 | INFO     | Thread-3 (continuethread) | Closing socket number: 2
+2026-10-18 21:33:01 | INFO     | Thread-4 (continuethread) | Connection number: 3
+2026-10-18 21:33:01 | INFO     | Thread-4 (continuethread) | Connection from: ('127.0.0.1', 38716)
+2026-10-18 21:33:01 | INFO     | Thread-4 (continuethread) | Msg received: Hihi
+2026-10-18 21:33:01 | INFO     | Thread-4 (continuethread) | sent reply to client
+2026-10-18 21:33:01 | INFO     | Thread-4 (continuethread) | Msg received: Goat
+2026-10-18 21:33:01 | INFO     | Thread-4 (continuethread) | sent reply to client
+2026-10-18 21:33:01 | INFO     | Thread-4 (continuethread) | Msg received: Messi
+2026-10-18 21:33:01 | INFO     | Thread-4 (continuethread) | sent reply to client
+2026-10-18 21:33:08 | INFO     | Thread-4 (continuethread) | Closing socket number: 3
+2026-10-18 21:33:35 | INFO     | Thread-5 (continuethread) | Connection number: 4
+2026-10-18 21:33:35 | INFO     | Thread-5 (continuethread) | Connection from: ('127.0.0.1', 63142)
+2026-10-18 21:33:35 | INFO     | Thread-5 (continuethread) | Msg received: {"id": 1, "type": "PING", "data": {}}
+2026-10-18 21:33:35 | INFO     | Thread-5 (continuethread) | sent reply to client
+2026-10-18 21:33:35 | INFO     | Thread-5 (continuethread) | Msg received: {"id": 2, "type": "ECHO", "data": "yoo"}
+2026-10-18 21:33:35 | INFO     | Thread-5 (continuethread) | sent reply to client
+2026-10-18 21:33:35 | INFO     | Thread-5 (continuethread) | Msg received: {"id": 3, "type": "QUIT", "data": {}}
+2026-10-18 21:33:35 | INFO     | Thread-5 (continuethread) | sent reply to client
+2026-10-18 21:33:35 | INFO     | Thread-5 (continuethread) | Msg received: {"type": "INVALID", "data": {}}
+2026-10-18 21:33:35 | INFO     | Thread-5 (continuethread) | sent reply to client
+2026-10-18 21:34:05 | WARNING  | Thread-5 (continuethread) | No client activity
+2026-10-18 21:34:05 | INFO     | Thread-5 (continuethread) | sent reply to client
+2026-10-18 21:34:05 | INFO     | Thread-5 (continuethread) | Closing socket number: 4
+2026-10-18 21:35:31 | WARNING  | MainThread | Detected forced shutdown, closing server

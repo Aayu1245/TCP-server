@@ -64,7 +64,7 @@ def quiter(id):
     return json.dumps({"id": id, "type": "QUIT", "data": {}})
 
 def invalid(id):
-    return json.dumps({"id": id, "type": "INVALID", "data":{}})
+    return json.dumps({"type": "INVALID", "data":{}})
 
 mess1 = ping(1)
 mess2 = echo(2, "yoo")

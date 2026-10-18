@@ -32,7 +32,7 @@ mess1 = "Hihi"
 mess2 = "Goat"
 mess3 = "Messi"
 code, resp = send_message(client, mess1, mess2, mess3)
-print(code, ", ", resp)
+
 
 
 

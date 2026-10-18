@@ -3,6 +3,7 @@ import threading
 import time
 import struct
 import json
+import random
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind(("127.0.0.1", 5000))
@@ -43,9 +44,13 @@ def handle_request(dump):
         data = json.loads(dump)
     except:
         return ""
-
+    try:
+        id = data["id"]
+    except:
+        data["id"] = random.randint(0,100)
     try:
         req = data["type"]
+        dataa = data["data"]
     except:
         return error(data["id"])
     if req in router:
